@@ -4,7 +4,7 @@ name: tag-workflow
 on:
   workflow_dispatch:
   repository_dispatch:
-    type: [custom_event]
+    type: [custom-event]
 env:
   IMAGE_NAME: print 
   DOC_USER: ${{ secrets.DOCKERHUB_USERNAME }} 
